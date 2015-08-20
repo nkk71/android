@@ -15,7 +15,7 @@ Then to sync up:
 
 Then to build for the M8:
 
-     ./mr-m8.sh;
+     ./mr-m8.sh
 
 Or for other devices, the old-fashioned way:
      
