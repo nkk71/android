@@ -13,9 +13,13 @@ Then to sync up:
 
     repo sync
 
-Then to build:
+Then to build for the M8:
 
-     cd <source-dir>; . build/envsetup.sh; lunch <device_name>
+     ./mr-m8.sh;
+
+Or for other devices, the old-fashioned way:
+     
+     . build/envsetup.sh; lunch <device_name>
 
 The following is from: https://github.com/Tasssadar/multirom/wiki/Porting-MultiROM
 
