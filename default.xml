@@ -13,14 +13,16 @@
 
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
-           fetch="https://github.com/omnirom" />
+           fetch="https://github.com/omnirom" 
+           revision="refs/heads/android-5.1" />
 
   <remote  name="MR"
            fetch="https://github.com/multirom-m8" />
 
   <remote  name="CM"
            fetch="https://github.com/CyanogenMod"
-           review="review.cyanogenmod.org" />
+           review="review.cyanogenmod.org" 
+           revision="refs/heads/cm-12.1" />
 
   <remote  name="AOSP"
            fetch="https://kernel.googlesource.com" />
