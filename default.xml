@@ -153,7 +153,7 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.1" />
   
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="multirom" path="system/extras/multirom" remote="multirom" revision="master" />
+  <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="master" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
