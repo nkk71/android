@@ -47,7 +47,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <!--project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-5.1" /-->
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
@@ -158,7 +158,6 @@
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
-  <project name="android_external_busybox" path="external/busybox" remote="CM" revision="cm-12.1" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <project name="kernel_htc_m8gpe" path="kernel/htc/m8gpe" remote="MR" revision="master" />
