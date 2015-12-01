@@ -173,7 +173,7 @@
   <project name="multirom-m8.github.io" path="external/multirom" remote="MR" revision="master" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-12.1" />
   <project name="android_external_lz4" path="external/lz4" remote="CM" revision="cm-12.1" />
-  <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs" path="external/f2fs" remote="AOSP" revision="linux-3.4" />
+  <project name="android_external_f2fs" path="external/f2fs" remote="MR" revision="linux-3.4" />
 
 
 <!--STUFF IN OMNI'S REPO THAT WE DON'T NEED FOR TWRP OR MULTIROM -->
