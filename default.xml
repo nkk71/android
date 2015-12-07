@@ -106,8 +106,8 @@
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
   
 <!-- DEVICE-SPECIFIC REPOS  -->
-  <project name="kernel_htc_m8gpe" path="kernel/htc/m8gpe" remote="MR" revision="master" />
-  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="multirom" >
+  <project name="kernel_htc_m8gpe" path="kernel/htc/m8gpe" remote="MR" revision="M" />
+  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="multirom-M" >
        <copyfile src="mr-m8.sh" dest="mr-m8.sh" />
   </project>
   <project name="multirom-m8.github.io" path="external/multirom" remote="MR" revision="master" />
