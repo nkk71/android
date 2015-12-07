@@ -19,6 +19,20 @@
            sync-j="16"
            fetch="https://github.com/omnirom" />
 
+  <remote  name="MR"
+           fetch="https://github.com/multirom-htc" />
+
+  <remote  name="CM"
+           fetch="https://github.com/CyanogenMod"
+           review="review.cyanogenmod.org" 
+           revision="refs/heads/cm-13.0" />
+
+  <remote  name="AOSP"
+           fetch="https://kernel.googlesource.com" />
+
+  <remote  name="multirom"
+           fetch="https://github.com/Tasssadar" />
+
   <default revision="refs/tags/android-6.0.0_r26"
            remote="aosp"
            sync-c="true"
@@ -83,6 +97,23 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
+
+<!-- TWRP & MULTIROM REPOS  -->
+  <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="master" />
+  <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
+  <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
+  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
+  
+<!-- DEVICE-SPECIFIC REPOS  -->
+  <project name="kernel_htc_m8gpe" path="kernel/htc/m8gpe" remote="MR" revision="master" />
+  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="multirom" >
+       <copyfile src="mr-m8.sh" dest="mr-m8.sh" />
+  </project>
+  <project name="multirom-m8.github.io" path="external/multirom" remote="MR" revision="master" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-12.1" />
+  <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />
+
 
   <!--Unused repos-->
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> -->
