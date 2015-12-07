@@ -45,7 +45,7 @@
 <!--Omni Repos-->
   <project path="android" name="android" remote="omnirom" />
   <project path="bionic" name="android_bionic" remote="omnirom" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" />
+  <!--project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" /-->
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" />
   <project path="external/clang" name="android_external_clang" remote="omnirom" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" />
