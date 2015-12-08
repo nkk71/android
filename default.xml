@@ -110,8 +110,8 @@
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="multirom-M" >
        <copyfile src="mr-m8.sh" dest="mr-m8.sh" />
   </project>
-  <project name="multirom-m8.github.io" path="external/multirom" remote="MR" revision="master" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-12.1" />
+  <project name="multirom-htc.github.io" path="external/multirom" remote="MR" revision="master" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-13.0" />
   <project name="pub/scm/linux/kernel/git/jaegeuk/f2fs-stable" path="external/f2fs" remote="AOSP" revision="linux-3.4.y" />
 
 
