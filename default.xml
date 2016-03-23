@@ -160,7 +160,7 @@
   
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="android-6.0" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-6.0" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
