@@ -166,6 +166,7 @@
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
+  <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
   <project name="kernel_htc_m8gpe" path="kernel/htc/m8gpe" remote="MR" revision="L" />
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0" >
        <copyfile src="mr-m8.sh" dest="mr-m8.sh" />
