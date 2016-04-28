@@ -33,6 +33,9 @@
   <remote  name="multirom"
            fetch="https://github.com/Tasssadar" />
 
+  <remote  name="nexus6p"
+           fetch="https://github.com/multirom-nexus6p" />
+
   <default revision="refs/tags/android-6.0.0_r26"
            remote="aosp"
            sync-c="true"
@@ -103,7 +106,7 @@
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-6.0" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
-  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
+  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="nexus6p" revision="master" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
