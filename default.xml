@@ -99,7 +99,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
+  <project name="multirom" path="system/extras/multirom" remote="MR" revision="android-6.0" />
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-6.0" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
@@ -230,7 +230,7 @@
   <!-- project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-6.0" /> -->
   <!-- project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" /> -->
-  <!-- project path="external/libnl" name="platform/external/libnl" groups="pdk" /> -->
+  <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <!-- project path="external/libogg" name="platform/external/libogg" groups="pdk" /> -->
   <!-- project path="external/libopus" name="platform/external/libopus" groups="pdk" /> -->
   <!-- project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" /> -->
