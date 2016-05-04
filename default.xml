@@ -36,7 +36,7 @@
   <remote  name="nexus6p"
            fetch="https://github.com/multirom-nexus6p" />
 
-  <default revision="refs/tags/android-6.0.0_r26"
+  <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -112,6 +112,7 @@
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
   <project name="android_device_htc_hima" path="device/htc/hima" remote="MR" revision="android-6.0" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-13.0" />
+  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0-mrom" />
 
 
   <!--Unused repos-->
