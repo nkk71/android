@@ -36,7 +36,7 @@
   <remote  name="nexus6p"
            fetch="https://github.com/multirom-nexus6p" />
 
-  <default revision="refs/tags/android-6.0.1_r43"
+  <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
