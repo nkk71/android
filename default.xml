@@ -24,7 +24,7 @@
 
   <remote  name="CM"
            fetch="https://github.com/CyanogenMod"
-           review="review.cyanogenmod.org"
+           review="review.cyanogenmod.org" 
            revision="refs/heads/cm-13.0" />
 
   <remote  name="AOSP"
