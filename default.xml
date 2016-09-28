@@ -113,7 +113,7 @@
   <project name="android_device_htc_hima" path="device/htc/hima" remote="MR" revision="android-6.0" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="stable/cm-13.0-ZNH2K" />
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0-mrom" />
-
+  <project name="android_device_htc_pme" path="device/htc/pme" remote="MR" revision="android-6.0-mrom" />
 
   <!--Unused repos-->
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> -->
