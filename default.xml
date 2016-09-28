@@ -36,7 +36,7 @@
   <remote  name="nexus6p"
            fetch="https://github.com/multirom-nexus6p" />
 
-  <default revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r68"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -103,7 +103,7 @@
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="android-6.0" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-6.0" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.0-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="nexus6p" revision="master" />
@@ -111,7 +111,7 @@
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
   <project name="android_device_htc_hima" path="device/htc/hima" remote="MR" revision="android-6.0" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-13.0" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="stable/cm-13.0-ZNH2K" />
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0-mrom" />
 
 
@@ -188,7 +188,7 @@
   <!-- project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-6.0" groups="pdk" /> -->
   <!-- project path="external/fonttools" name="platform/external/fonttools" /> -->
   <!-- project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" /> -->
-  <!-- project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-6.0" /> -->
+  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-6.0" />
   <!-- project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" /> -->
   <!-- project path="external/glide" name="platform/external/glide" groups="pdk-fs" /> -->
   <!-- project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" /> -->
@@ -300,7 +300,7 @@
   <!-- project path="external/speex" name="platform/external/speex" groups="pdk" /> -->
   <!-- project path="external/sqlite" name="platform/external/sqlite" groups="pdk" /> -->
   <!-- project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" /> -->
-  <!-- project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <!-- project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" /> -->
@@ -501,7 +501,7 @@
   <!-- project path="sdk" name="platform/sdk" groups="pdk-cw-fs" /> -->
   <!-- project path="system/bt" name="platform/system/bt" groups="pdk" /> -->
   <!-- project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" /> -->
-  <!-- project path="system/keymaster" name="platform/system/keymaster" groups="pdk" /> -->
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <!-- project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-6.0" /> -->
   <!-- project path="system/security" name="platform/system/security" groups="pdk" /> -->
   <!-- project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-6.0" /> -->
