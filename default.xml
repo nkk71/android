@@ -102,7 +102,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
-  <project name="multirom" path="system/extras/multirom" remote="MR" revision="android-6.0" />
+  <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.0-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
@@ -229,7 +229,7 @@
   <!-- project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/libgsm" name="platform/external/libgsm" groups="pdk" /> -->
   <!-- project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" /> -->
-  <!-- project path="external/liblzf" name="platform/external/liblzf" groups="pdk" /> -->
+  <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <!-- project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" /> -->
   <!-- project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-6.0" /> -->
@@ -285,7 +285,7 @@
   <!-- project path="external/pdfium" name="platform/external/pdfium" groups="pdk" /> -->
   <!-- project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/proguard" name="platform/external/proguard" groups="pdk" /> -->
-  <!-- project path="external/protobuf" name="platform/external/protobuf" groups="pdk" /> -->
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <!-- project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" /> -->
