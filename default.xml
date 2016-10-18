@@ -106,7 +106,7 @@
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.0-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
-  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="nexus6p" revision="master" />
+  <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="nexus6p" revision="android-6.0" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
