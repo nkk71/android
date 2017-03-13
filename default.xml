@@ -20,7 +20,7 @@
            fetch="https://github.com/omnirom" />
 
   <remote  name="MR"
-           fetch="https://github.com/multirom-htc" />
+           fetch="https://github.com/multirom-dev" />
 
   <remote  name="CM"
            fetch="https://github.com/CyanogenMod"
@@ -33,10 +33,14 @@
   <remote  name="multirom"
            fetch="https://github.com/Tasssadar" />
 
+  <remote  name="TWRP"
+           fetch="https://github.com/TeamWin"
+           review="gerrit.twrp.me" />
+
   <remote  name="nexus6p"
            fetch="https://github.com/multirom-nexus6p" />
 
-  <default revision="refs/tags/android-6.0.1_r72"
+  <default revision="refs/tags/android-6.0.1_r79"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -103,15 +107,15 @@
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.0-mrom" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.1-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="nexus6p" revision="android-6.0" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
-  <project name="android_device_htc_hima" path="device/htc/hima" remote="MR" revision="android-6.0" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="stable/cm-13.0-ZNH2K" />
+  <project name="android_device_htc_hima" path="device/htc/hima" remote="MR" revision="android-6.0-mrom" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="TWRP" revision="android-6.0" />
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0-mrom" />
   <project name="android_device_htc_pme" path="device/htc/pme" remote="MR" revision="android-6.0-mrom" />
 
