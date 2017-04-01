@@ -7,19 +7,20 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MULTI-ROM trees, use a command like this:
 
-    repo init -u git://github.com/multirom-m8/android.git -b master
+    repo init -u git://github.com/multirom-dev/android.git -b <branch>
 
 Then to sync up:
 
     repo sync
 
-Then to build for the M8:
+Then to build MR TWRP, multirom zip & uninstaller for your device:
 
-     ./mr-m8.sh
-
-Or for other devices, the old-fashioned way:
+     export TARGET_DEVICE=<device_name>
+     ./mr-build.sh
      
-     . build/envsetup.sh; lunch <device_name>
+Or the old-fashioned way:
+     
+     . build/envsetup.sh; lunch <device_name>-eng
 
 The following is from: https://github.com/Tasssadar/multirom/wiki/Porting-MultiROM
 
