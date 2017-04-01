@@ -17,7 +17,11 @@
            revision="refs/heads/android-5.1" />
 
   <remote  name="MR"
-           fetch="https://github.com/multirom-htc" />
+           fetch="https://github.com/multirom-dev" />
+
+  <remote  name="TWRP"
+           fetch="https://github.com/TeamWin"
+           review="gerrit.twrp.me" />
 
   <remote  name="CM"
            fetch="https://github.com/CyanogenMod"
@@ -43,6 +47,7 @@
 
   <!--project path="device/qcom/sepolicy" name="platform/device/qcom/sepolicy" groups="pdk" /-->
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" groups="pdk" />
@@ -81,7 +86,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
@@ -160,19 +164,19 @@
   
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.0-mrom" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.1-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
-  <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
-  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0-prebuilt" >
-       <copyfile src="mr-m8.sh" dest="mr-m8.sh" />
+  <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master">
+       <copyfile src="mr-build.sh" dest="mr-build.sh" />
   </project>
-  <project name="multirom-m8.github.io" path="external/multirom" remote="MR" revision="master" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="CM" revision="cm-12.1" />
-  <project name="android_external_lz4" path="external/lz4" remote="CM" revision="cm-12.1" />
+  <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-5.1-mrom" />
+  <project name="multirom-dev.github.io" path="external/multirom" remote="MR" revision="master" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="TWRP" revision="android-6.0" />
+  <project name="android_external_lz4" path="external/lz4" remote="omnirom" revision="android-6.0" />
 
 
 <!--STUFF IN OMNI'S REPO THAT WE DON'T NEED FOR TWRP OR MULTIROM -->
@@ -228,8 +232,9 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" /-->
+  <project path="external/libnl" name="platform/external/libnl" />
+  <!--project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
