@@ -7,7 +7,7 @@
   <project name="multirom-dev.github.io" path="external/multirom" remote="MR" revision="master" />
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
   <remove-project name="android_bootable_recovery" />
-  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.1" />
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.1-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="MR" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="MR" revision="master" />
