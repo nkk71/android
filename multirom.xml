@@ -4,6 +4,7 @@
            fetch="https://github.com/multirom-dev" />
   <remote  name="multirom"
            fetch="https://github.com/Tasssadar" />
+<!--
   <project name="multirom-dev.github.io" path="external/multirom" remote="MR" revision="master" />
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
   <remove-project name="android_bootable_recovery" />
@@ -11,4 +12,5 @@
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="MR" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="MR" revision="master" />
+-->
 </manifest>
