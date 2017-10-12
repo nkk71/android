@@ -106,18 +106,24 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
 
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
+<!--
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.1-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="nexus6p" revision="android-6.0" />
+-->
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
+<!--
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master" />
   <project name="android_device_htc_hima" path="device/htc/hima" remote="MR" revision="android-6.0-mrom" />
+-->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="TWRP" revision="android-6.0" />
+<!--
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-6.0-mrom" />
   <project name="android_device_htc_pme" path="device/htc/pme" remote="MR" revision="android-6.0-mrom" />
+-->
 
   <!--Unused repos-->
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> -->
