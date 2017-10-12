@@ -164,18 +164,22 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   
 <!-- ADD IN TWRP & MULTIROM REPOS  -->
+<!--
   <project name="multirom" path="system/extras/multirom" remote="MR" revision="master" />
   <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="MR" revision="android-7.1-mrom" />
   <project name="kexec-tools" path="system/extras/multirom/kexec-tools" remote="multirom" revision="master" />
   <project name="libbootimg" path="system/extras/libbootimg" remote="multirom" revision="master" />
   <project name="multirom_adbd" path="system/extras/multirom/adbd" remote="multirom" revision="master" />
+-->
   
 <!-- ADD IN DEVICE-SPECIFIC REPOS  -->
+<!--
   <project name="android_device_common_version-info" path="device/common/version-info" remote="MR" revision="master">
        <copyfile src="mr-build.sh" dest="mr-build.sh" />
   </project>
   <project name="android_device_htc_m8" path="device/htc/m8" remote="MR" revision="android-5.1-mrom" />
   <project name="multirom-dev.github.io" path="external/multirom" remote="MR" revision="master" />
+-->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="TWRP" revision="android-6.0" />
   <project name="android_external_lz4" path="external/lz4" remote="omnirom" revision="android-6.0" />
 
